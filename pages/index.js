@@ -7,11 +7,29 @@ class StartPage extends Component {
         document.documentElement.scrollTop = 0;
     }
 
-    submitForm() {
+    validateEmail(mail) 
+    {
+      if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(mail)) {
+        return (true)
+      }
+      alert("You have entered an invalid email address!")
+      return (false)
+    }
+
+    submitForm = () => {
       let name, email, phone
-      name = document.querySelector('#name').value
-      email = document.querySelector('#email').value
-      phone = document.querySelector('#phone').value
+      name = document.querySelector('#name').value.trim()
+      email = document.querySelector('#email').value.trim()
+      phone = document.querySelector('#phone').value.trim()
+
+      console.log(name == "")
+      if(name == ""){
+        alert('plese enter your name')
+        return
+      }
+
+      if(!this.validateEmail(email))
+      return
     //   if (this.state.emails.find(email => email === this.email.value)) {
     //     alert("Account with this email altready exists");
     //     return;
@@ -55,6 +73,17 @@ class StartPage extends Component {
                 <div id="subtitle"><p>Learn to Code with Our Mentorship Programme</p></div>
                 <div id="main">
                     {/* {window.screen.width < 768 && <SignUp signUpApis={this.props.signUpApis} getLessonProgressEmailAndUserName={this.props.getLessonProgressEmailAndUserName} />} */}
+                    <div id="signup-mobile">
+                        <div id="signupBody">
+                            <div className="title">Join the waitlist now</div>
+                            <div className='add-form'>
+                              <input type="text" id="name" placeholder="Your Name" required />
+                              <input type="email" id="email" name="email" placeholder='Enter your Email' required />
+                              <input type="phone" id="phone" name="phone" placeholder='Enter your Mobile Number' required />
+                              <button onClick={this.submitForm}>Submit</button>
+                            </div>
+                        </div>
+                    </div>
                     <div id="content">
                         <div id="content-head">What is this Programme About?</div>
                         <div id="content-info">
@@ -74,10 +103,12 @@ class StartPage extends Component {
                     <div id="signup">
                         <div id="signupBody">
                             <div className="title">Join the waitlist now</div>
-                            <input type="text" id="name" label="Your Name" required />
-                            <input type="email" id="email" name="email" required />
-                            <input type="phone" id="phone" name="phone" required />
-                            <button onClick={this.submitForm}>Submit</button>
+                            <div className='add-form'>
+                              <input type="text" id="name" placeholder="Your Name" required />
+                              <input type="email" id="email" name="email" placeholder='Enter your Email' required />
+                              <input type="phone" id="phone" name="phone" placeholder='Enter your Mobile Number' required />
+                              <button onClick={this.submitForm}>Submit</button>
+                            </div>
                         </div>
                     </div>
                 </div>

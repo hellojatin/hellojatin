@@ -6,6 +6,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 18px;
+  background-color: black;
 }
 
 * {
@@ -36,7 +37,7 @@ img {
   text-align: center;
   margin: 0;
   line-height: 1.25em;
-  color: #182433;
+  color: #4a90e2;
   font-weight: 700;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 45px;
@@ -49,6 +50,7 @@ img {
 #subtitle p {
   font-size: 22px;
   text-align: center;
+  color: white;
 }
 
 #main {
@@ -72,7 +74,7 @@ img {
 #content-info {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
-  color: rgba(38,38,38,1);
+  color: white;
   font-weight: 400;
 }
 
@@ -190,7 +192,7 @@ img {
   #content-info {
       font-family: Arial, Helvetica, sans-serif;
       font-size: 18px;
-      color: rgba(38,38,38,1);
+      color: white;
       font-weight: 400;
   }
 
@@ -225,6 +227,7 @@ img {
   font-size: 18px;
   margin: 30px;
   font-weight: 600;
+  color: #4a90e2;
 }
 
 .signUpInput {
@@ -233,9 +236,38 @@ img {
   margin: 10px auto;
 }
 
+.add-form {
+  width: 85%;
+  margin: auto;
+}
+
+.add-form input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.add-form button {
+  background-color: #5090e2;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 40%;
+}
+
 @media only screen and (max-width: 1377px) {
   #signup {
       margin: 4% 0% 8% 0%;
+  }
+  #signup-mobile {
+    display: none;
   }
 }
 
@@ -247,6 +279,17 @@ img {
       margin-left: auto;
       margin-right: auto;
       min-width: 320px;
+      display: none;
+  }
+
+  #signup-mobile {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 320px;
+    display: block;
   }
 
   #signupBody {
