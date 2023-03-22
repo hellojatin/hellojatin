@@ -1,0 +1,134 @@
+#scope-window {
+  width: 100%;
+  display: flex;
+}
+
+#subjectSelection {
+  width: 15%;
+  height: 90vh;
+  overflow-y: scroll;
+}
+
+#subjectView {
+  width: 85%;
+  height: 90vh;
+  overflow-y: scroll;
+}
+
+#subjectTitle {
+  background: black;
+  color: white;
+  font-size: 35px;
+  padding: 5px 20px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.subjectCard {
+  text-align: center;
+  padding: 10px;
+}
+
+.subjectLogo{
+  height: 50px;
+  width: 75px;
+  background-color: white;
+  margin: auto;
+}
+
+#message{
+  text-align: center;
+  margin-top: 300px;
+  font-size: 25px;
+}
+
+.category {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.categoryName {
+  width: 5%;
+  background: #d7e6ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.categoryName .head {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  letter-spacing: -3px;
+  font-size: 19px;
+}
+
+.categoryContent {
+  width: 95%;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.topicTiles {
+  min-width: 10%;
+  max-width: 15%;
+  height: 100px;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.topicTiles {
+  flex-grow: 100;
+  min-width: 10%;
+  max-width: 15%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 15px;
+  border: solid 1px;
+}
+
+.topicStarted {
+  background: #ffab40;;
+}
+
+.topicProgressOver50 {
+  background: #eeff41;
+}
+
+.topicCompleted {
+  background: #00ff00;
+}
+
+.topicTiles:hover {
+  background: #2ce9eb;
+  cursor: pointer;
+}
+
+#questionsTable {
+  margin: 10px 20px;
+  height: 80vh;
+  overflow: auto;
+}
+
+#questionsTable thead th {
+  top: 0;
+  position: sticky;
+  background: white;
+  border-bottom: 2px solid black;
+}
+
+#questionsTable tbody {
+  border-top: 0px;
+}
+
+#questionsBack {
+  margin: 0px 10px;
+}
+
+#questionsHead {
+  margin: 8px 20px;
+  font-size: 20px;
+}

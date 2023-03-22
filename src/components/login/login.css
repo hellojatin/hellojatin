@@ -1,0 +1,13 @@
+#loginForm {
+    display: flex;
+}
+
+.loginElement {
+    margin: 0px 10px;
+    height: 30px;
+    font-size: 15px;
+}
+
+#loginAction {
+    padding: 3px 15px;
+}

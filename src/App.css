@@ -1,0 +1,19 @@
+.navbar {
+    height: 10vh;
+}
+
+#navbar {
+    margin-top: 10vh;
+}
+
+#loadingApp {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+#appSpinner {
+    margin: auto;
+    height: 3rem;
+    width: 3rem;
+}

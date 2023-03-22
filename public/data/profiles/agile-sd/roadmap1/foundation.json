@@ -1,0 +1,28 @@
+{
+    "introduction":{
+        "video": "https://s3.ap-southeast-1.amazonaws.com/www.sakhilearning.in/techbridge/videos/agile-sd/aashish/TeachBridgeFoundationAgileSDIntroV01.mp4",
+        "content": "<div>Congratulations for taking your first step towards becoming the Agile Software Developer. Please go through this explainer video to know about the journey ahead.</div>"
+    },
+    "zones":[
+        {
+            "name":"Zone-1",
+            "desc":"Welcome aboard. We know it is difficult to hold the temptation to build that amazing app or game which got you excited. But anything that rises high and lives long requires a deep foundation. We need to develop familiarity with basic building blocks of data processing. As you go through different sections and solve problems with your fellow learners, you will be exposed to different data processing tools, which forms the basis for all the amazing solutions you come across. It is the time for action. Lets go"
+        },
+        {
+            "name":"Zone-2",
+            "desc":"We are sure that the journey so far has been interesting and you enjoyed walking the path with your fellow learners. It is the time to gear up for next level. Drawing an analogy with a car manufacturar, who uses varios components to come up with different models of new cars, we as software developers use lots and lots of prebuilt components to develop amazing solutions. We are going to learn a little bit about reuse as we continue our journey in this zone"
+        },
+        {
+            "name":"Zone-3",
+            "desc":"Happy to see you reached thus far. We will definitly reach to a point where you will develop those interesting applications that facinated you, however everything strats with small steps. How about developing something useful with what you have built so far and thus developing the capability to solve problems? Excied? so are we!!"
+        },
+        {
+            "name":"Zone-4",
+            "desc":"Last segment of the journey was definitly interesting, and while you were going through that sesction you were getting so many ideas, we can do this, we can do that etc. How about learning a few more things that will help you turn some of those ideas into reality. So far you have worked with primitive data types, and it helped you develop some valuable pieces. Let us try to solve slightly more complex problem and pick up some more interesting tools, and learn new techniques as we go along"
+        },
+        {
+            "name":"Zone-5",
+            "desc":"Let us put whatever we have learnt so far to practise, and in the process improve our capability to evolve algorithms and code them to make real working programs. We know you are excited. Why wait, let go"
+        }
+    ]
+}

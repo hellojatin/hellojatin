@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Problem Title",
+        "desc": "desc",
+        "exerciseLocation": {
+            "profileCode": "",
+            "roadmapName": "",
+            "pathCode": "",
+            "zoneName": "",
+            "exerciseIndex": 0
+        },
+        "solved": false
+    }
+]

@@ -1,0 +1,37 @@
+.roadmap {
+    padding: 50px;
+    padding-bottom: 0px;
+}
+
+.roadmap .card-title{
+    font-size: 30px;
+}
+
+.roadmap .card-subtitle{
+    font-size: 20px;
+    color: black !important;
+    padding: 10px 0px;
+}
+
+.segments {
+    width: 100%;
+    display: inline-flex;
+}
+
+.segments div {
+    width: 23%;
+    height: 50px;
+    margin: 1% 0%;
+    margin-right: 2%;
+}
+
+.segments button {
+    height: 50px;
+    width: 80%;
+}
+
+.rightArrow {
+    width: 11.3%;
+    font-size: 30px;
+    margin-left: 8.7%;
+}
