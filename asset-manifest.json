@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Tech-Bridge/static/css/main.fad19dba.css",
+    "main.js": "/Tech-Bridge/static/js/main.f3abc677.js",
+    "static/js/787.7f774d39.chunk.js": "/Tech-Bridge/static/js/787.7f774d39.chunk.js",
+    "index.html": "/Tech-Bridge/index.html",
+    "main.fad19dba.css.map": "/Tech-Bridge/static/css/main.fad19dba.css.map",
+    "main.f3abc677.js.map": "/Tech-Bridge/static/js/main.f3abc677.js.map",
+    "787.7f774d39.chunk.js.map": "/Tech-Bridge/static/js/787.7f774d39.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fad19dba.css",
+    "static/js/main.f3abc677.js"
+  ]
+}

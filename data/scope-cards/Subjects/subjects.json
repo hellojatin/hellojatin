@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Java", 
+        "id": "java",
+        "logo": "/images/scope-cards/Java.svg"
+    },
+    {
+        "name": "C++", 
+        "id": "cpp",
+        "logo": "/images/scope-cards/C++.svg"
+    },
+    {
+        "name": "CSS", 
+        "id": "css",
+        "logo": "/images/scope-cards/CSS.svg"
+    },
+    {
+        "name": "MySQL", 
+        "id": "mysql",
+        "logo": "/images/scope-cards/MySQL.svg"
+    },
+    {
+        "name": "React", 
+        "id": "react",
+        "logo": "/images/scope-cards/React.svg"
+    },
+    {
+        "name": "Python", 
+        "id": "python",
+        "logo": "/images/scope-cards/Python.svg"
+    }
+]

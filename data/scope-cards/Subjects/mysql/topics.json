@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Introduction to SQL",
+        "id": "introductiontosql",
+        "category": "Fundamental"
+    },
+    {
+        "name": "MySQL Fundamentals",
+        "id": "mysqlFundamentals",
+        "category": "Fundamental"
+    },
+    {
+        "name": "MySQL Fundamentals Part 2",
+        "id": "mysqlFundamentalspart2",
+        "category": "intermediate"
+    },
+    {
+        "name": "MySql workbench Guided Tour",
+        "id": "mysqlworkbenchguidedtour",
+        "category": "intermediate"
+    },
+    {
+        "name": "MySQL Recovery and Backup Fundamentals",
+        "id": "mysqlrecoveryandbackupFundamentals",
+        "category": "intermediate"
+    },
+    {
+        "name": "MySQL Indexing for Performance",
+        "id": "mysqlindexingforperformance",
+        "category": "Advanced"
+    },
+    {
+        "name": "MySQL Query Optimization and Performance Tuning",
+        "id": "mysqlqueryoptimizationandperformancetuning",
+        "category": "Advanced"
+    },
+    {
+        "name": "phpMyAdmin Fundamentals",
+        "id": "phpmyadminFundamentals",
+        "category": "Advanced"
+    }
+]

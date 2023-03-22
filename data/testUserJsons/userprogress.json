@@ -1,0 +1,63 @@
+{
+    "EmailId": "user@email.com",
+    "LessonProgress": [
+        {
+            "profileCode": "agile-sd",
+            "roadmaps": [
+                {
+                    "name": "roadmap1",
+                    "status":false,
+                    "paths": [
+                        {
+                            "code": "foundation",
+                            "status":false,
+                            "progress": [
+                                {
+                                    "name": "NameOfZone",
+                                    "status": true,
+                                    "progress": [
+                                        {
+                                            "status": true,
+                                            "video": true,
+                                            "exercises": [
+                                                {
+                                                    "status": true,
+                                                    "startTime": "time",
+                                                    "endTime": "time",
+                                                    "response": "response of exercise"
+                                                },
+                                                {
+                                                    "status": true,
+                                                    "startTime": "time",
+                                                    "endTime": "time",
+                                                    "response": "response of exercise"
+                                                },
+                                                {
+                                                    "status": true,
+                                                    "startTime": "time",
+                                                    "endTime": "time",
+                                                    "response": "response of exercise"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "video": true,
+                                            "exercises": [
+                                                {
+                                                    "status": true,
+                                                    "startTime": "time",
+                                                    "endTime": "time",
+                                                    "response": "response of exercise"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
