@@ -69,7 +69,12 @@ class StartPage extends Component {
             .then(response => {
                 let result = JSON.parse(response);
                 if (result.statusCode === 200) {
-                    this.setState({ success: true })
+                    this.setState({ 
+                        success: true,
+                        name: '',
+                        email: '',
+                        phone: '' 
+                    })
                     setTimeout(() => { this.setState({ success: false }) }, 5000)
                 }
             })
